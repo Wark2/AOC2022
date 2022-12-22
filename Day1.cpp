@@ -30,12 +30,12 @@ int main() {
 			current += n;
 		}
 	}
-    if(current > count[0]) //account for the last grouping 
-    {
+        if(current > count[0]) //account for the last grouping 
+        {
     	count[0] = current;
     	sort(count, count+3);
-    }
-	ifs.close();
+        }
+  	ifs.close();
 	cout << "Output Day 1 P1: " << count[2] << endl;
 	cout << "Output Day 1 P2: " << accumulate(count, count+3, 0) << endl;
 	return 0;
