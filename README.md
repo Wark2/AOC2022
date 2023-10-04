@@ -1,3 +1,3 @@
 # AdventCally
-Advent of Code 2022, 
-I know my code is ass
+Advent of Code 2022 first few days
+Contains code in C++ and in Python
